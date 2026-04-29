@@ -148,6 +148,13 @@
     width:100%; height:100%; border-radius:36px; overflow:hidden;
     background:#fff; display:flex; flex-direction:column;
   }
+  .screen-image{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+  }
   .screen-header{
     background:linear-gradient(135deg,var(--red),var(--red-light));
     color:#fff; padding:50px 20px 20px; text-align:center;
@@ -295,41 +302,7 @@
       <div class="phone">
         <div class="notch"></div>
         <div class="screen">
-          <div class="screen-header">
-            <div class="screen-emblem">★</div>
-            <h4>DANH BẠ CÔNG AN</h4>
-            <p>Tỉnh Lâm Đồng</p>
-          </div>
-          <div class="search-bar">
-            <span>🔍</span> Tìm theo tên, đơn vị...
-          </div>
-          <div class="contacts">
-            <div class="contact">
-              <div class="avatar">CA</div>
-              <div class="contact-info"><strong>Công an tỉnh Lâm Đồng</strong><span>Trực ban 24/7</span></div>
-              <div class="call-btn">📞</div>
-            </div>
-            <div class="contact">
-              <div class="avatar">PC</div>
-              <div class="contact-info"><strong>Phòng CSGT</strong><span>Đội tuần tra</span></div>
-              <div class="call-btn">📞</div>
-            </div>
-            <div class="contact">
-              <div class="avatar">ĐL</div>
-              <div class="contact-info"><strong>Công an TP Đà Lạt</strong><span>Trực ban</span></div>
-              <div class="call-btn">📞</div>
-            </div>
-            <div class="contact">
-              <div class="avatar">BL</div>
-              <div class="contact-info"><strong>Công an TP Bảo Lộc</strong><span>Trực ban</span></div>
-              <div class="call-btn">📞</div>
-            </div>
-            <div class="contact">
-              <div class="avatar">PC</div>
-              <div class="contact-info"><strong>Phòng Cảnh sát PCCC</strong><span>Cứu hộ - Cứu nạn</span></div>
-              <div class="call-btn">📞</div>
-            </div>
-          </div>
+          <img class="screen-image" src="represent.jpg" alt="Giao diện ứng dụng Danh bạ Công an tỉnh Lâm Đồng" />
         </div>
       </div>
     </div>
